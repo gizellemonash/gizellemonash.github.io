@@ -1,0 +1,128 @@
+body {
+    font-size:18px;
+    line-height:22px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    padding:0px;
+    margin:0px;
+}
+
+img {
+    width:100%;
+}
+
+div.title {
+    font-size:85px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height:150px;
+    text-align:center;
+}
+
+div.subtitle {
+    font-size:50px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height:50px;
+}
+
+div.quote {
+    font-size:30px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height:42px;
+}
+
+div.bodytext {
+    font-size:18px;
+    line-height:25px;
+    font-family: "lores-12", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+div.caption {
+    font-size:14px;
+    line-height:16px;
+}
+
+div.blue {
+    color:blue
+}
+
+div.white {
+    color:white;
+}
+
+div.black {
+    color:black;
+}
+
+div.yellow {
+    color:yellow
+}
+
+/* Background colours */
+
+div.bggreen {
+    background-color:rgb(0, 255, 0);
+}
+
+div.bgblue {
+    background-color:blue;
+}
+
+div.mb {
+    margin-bottom:100px;
+}
+
+div.mt {
+    margin-top:100px;
+}
+
+div.mr {
+    margin-right:100px;
+}
+
+div.mrauto {
+    margin-right:auto;
+}
+
+div.ml {
+    margin-left:100px;
+}
+
+div.mlauto {
+    margin-left:auto;
+}
+
+div.pad {
+    padding:20px;
+}
+
+/* Widths */
+
+div.width50 {
+    width:50%;
+}
+
+div.width25 {
+    width:25%;
+}
+
+div.width75 {
+    width:75%;
+}
+
+/* Layout */
+div.container {
+    display:flex;
+    flex-wrap:wrap;
+}
