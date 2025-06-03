@@ -146,6 +146,7 @@ div.width100 {
     width:100%
 }
 
+
 /* Layout */
 div.container {
     display:flex;
@@ -202,11 +203,31 @@ div.popup.active {
 
 /* Triggers and effects */
 
-span.highlight {
+span.highlight1 {
     font-family: "lores-12", sans-serif
 }
 
-span.highlight.block {
+span.highlight1.block {
+    background:blue;
+    color:blue;
+    font-size:30px;
+}
+
+span.highlight2 {
+    font-family: "lores-12", sans-serif
+}
+
+span.highlight2.block {
+    background:blue;
+    color:blue;
+    font-size:30px;
+}
+
+span.highlight3 {
+    font-family: "lores-12", sans-serif
+}
+
+span.highlight3.block {
     background:blue;
     color:blue;
     font-size:30px;
@@ -220,10 +241,37 @@ span.grow.active {
     font-size:100px
 }
 
-body.mainpage {
+span.grow2 {
+   
+}
+
+span.grow2.active {
+    font-size:100px
+}
+
+body.filters {
 
 }
 
-body.mainpage.active {
-    filter: contrast(5%);
+body.filters.active {
+    filter: contrast(20) grayscale(100);
 }
+
+
+div.blur {
+
+}
+
+div.blur.active {
+    filter:blur(5px);
+}
+
+span.blue {
+
+}
+
+span.blue.active {
+    color: blue;
+}
+
+
