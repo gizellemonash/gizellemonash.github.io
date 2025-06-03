@@ -22,9 +22,11 @@ div.title {
     font-style: normal;
     line-height:150px;
     text-align:center;
+    filter:blur(2px);
+    filter:contrast(2px);
 }
 
-div.times{
+div.times {
     font-size: 85px;
     font-family:'Times New Roman', Times, serif;
     font-weight: 700;
@@ -34,12 +36,18 @@ div.times{
 
 }
 
+span.number {
+    font-family: "lores-12", sans-serif;
+    color:blue;
+}
+
 div.subtitle {
     font-size:50px;
-    font-family: "lores-12", sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-weight: 700;
     font-style: normal;
-    line-height:50px;
+    line-height:70px;
+    filter:blur(2px)
 }
 
 div.quote {
@@ -100,6 +108,7 @@ div.mt {
 
 div.mr {
     margin-right:100px;
+    padding:50px;
 }
 
 div.mrauto {
@@ -108,6 +117,7 @@ div.mrauto {
 
 div.ml {
     margin-left:100px;
+    padding:50px;
 }
 
 div.mlauto {
@@ -115,7 +125,7 @@ div.mlauto {
 }
 
 div.pad {
-    padding:30px;
+    padding:50px;
 }
 
 /* Widths */
@@ -132,17 +142,90 @@ div.width75 {
     width:75%;
 }
 
+div.width100 {
+    width:100%
+}
+
 /* Layout */
 div.container {
     display:flex;
     flex-wrap:wrap;
+    padding:20px;
 }
+
+/* Welcome splash page */
+.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+  }
+  
+  .welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 /* Hero video */
 div.herovideo {
     width:300px;
     position:fixed;
-    bottom:0px;
-    right:0px;
+    bottom:10px;
+    right:10px;
+    border:3px solid blue;
+    filter: blur(2px);
+}
+
+/* Popups */
+
+div.popup {
+    position: fixed;
+    top:500px;
+    right:100px;
+    width:100px;
+    height:100px;
+    background-color:blue;
+}
+
+div.popup2 {
+    position: fixed;
+    top:500px;
+    right:100px;
+    width:100px;
+    height:100px;
+    background-color:blue;
+}
+
+div.hide {
+    display:none;
+}
+
+div.hide2 {
+    display:none;
+}
+
+/* Triggers and effects */
+
+span.highlight {
+    font-family: "lores-12", sans-serif
+}
+
+span.highlight.block {
+    background: yellow;
+    color:yellow;
+}
+
+span.highlight.big {
+    background: black;
+    color:white;
+    font-size: 100px;
 }
 
