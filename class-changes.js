@@ -1,12 +1,17 @@
 const classChanges = [
-  { time: 5, target: ".highlight", add: "block" },
-  { time: 7, target: ".highlight", remove: "block" },
-  { time: 9, target: ".highlight", add: "big" },
-  { time: 12, target: ".highlight", remove: "big" },  
-  { time: 125, target: ".popup", remove: "hide" },
-  { time: 130, target: ".popup", add: "hide" },
-  { time: 168, target: ".popup2", remove: "hide2" },
-  { time: 173, target: ".popup2", add: "hide2" },
+  { time: 6, target: ".grow", add: "active" },
+  { time: 7, target: ".grow", remove: "active" },
+
+  { time: 7, target: ".mainpage", add: "active" },
+  { time: 10, target: ".mainpage", remove: "active" },
+  
+  { time: 52, target: ".highlight", add: "block" },
+  { time: 54, target: ".highlight", remove: "block" },
+
+  { time: 125, target: ".pop1", add: "active" },
+  { time: 130, target: ".pop1", remove: "active" },
+  { time: 168, target: ".pop2", add: "active" },
+  { time: 173, target: ".pop2", remove: "active" },
 
   { time: 9, target: ".changeme2", add: "show" },
   { time: 16, target: ".changeme2", remove: "show" },
