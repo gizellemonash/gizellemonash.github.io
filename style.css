@@ -6,7 +6,7 @@ body {
     font-style: normal;
     color: white;
     background-color: black;
-    padding:20px;
+    padding: 20px;
     margin:0px;
 }
 
@@ -20,7 +20,7 @@ div.title {
     font-family: "lores-12", sans-serif;
     font-weight: 700;
     font-style: normal;
-    line-height:150px;
+    line-height:45px;
     text-align:center;
     filter:blur(2px);
     filter:contrast(2px);
@@ -31,14 +31,22 @@ div.times {
     font-family:'Times New Roman', Times, serif;
     font-weight: 700;
     font-style: normal;
-    line-height: 150px;
+    line-height: 45px;
     text-align: center;
+
+}
+
+div.symbol {
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    line-height: 20px;
 
 }
 
 span.number {
     font-family: "lores-12", sans-serif;
-    color:blue;
+    color:yellow;
 }
 
 div.subtitle {
@@ -50,12 +58,23 @@ div.subtitle {
     filter:blur(2px)
 }
 
+div.sub2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    filter: blur(2px);
+    line-height: 35px;
+
+}
+
 div.quote {
-    font-size:30px;
-    font-family: "lores-12", sans-serif;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     font-style: normal;
     line-height:42px;
+    color: blue;
+    filter: blur(2px);
 }
 
 div.bodytext {
