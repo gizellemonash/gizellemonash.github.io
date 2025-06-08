@@ -4,6 +4,8 @@ const classChanges = [
 
   { time: 8, target: ".filters", add: "active" },
   { time: 10, target: ".filters", remove: "active" },
+  { time: 8, target: ".bggrey", add: "active" },
+  { time: 10, target: ".bggrey", remove: "active" },
   
   { time: 52, target: ".highlight1", add: "block" },
   { time: 54, target: ".highlight1", remove: "block" },
@@ -33,4 +35,5 @@ const classChanges = [
   { time: 175, target: ".pop2", remove: "active" },
 
   { time: 210, target: ".filters", add: "active" },
+  { time: 211, target: ".bggrey", add: "active" },
 ];
